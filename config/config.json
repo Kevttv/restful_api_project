@@ -17,7 +17,7 @@
     "username": "kevttv",
     "password": "lVRNz79UnUL9YXZyps2L5lPBRa6awsMH",
     "database": "rest_full_api_ape8",
-    "host": "postgres://kevttv:lVRNz79UnUL9YXZyps2L5lPBRa6awsMH@dpg-ck5kp0aij1gs73cdgtag-a.oregon-postgres.render.com",
+    "host": "oregon-postgres.render.com",
     "dialect": "postgres",
     "dialectOptions": {
       "ssl": {
