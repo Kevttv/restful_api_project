@@ -14,10 +14,10 @@
     "dialect": "mysql"
   },
   "production": {
-    "username": "jusapi",
-    "password": "C2wCp4kxMDXRS8gBpqD7d90W21kzXdma",
-    "database": "db_api_rest_yxp2",
-    "host": "oregon-postgres.render.com",
+    "username": "kevttv",
+    "password": "lVRNz79UnUL9YXZyps2L5lPBRa6awsMH",
+    "database": "rest_full_api_ape8",
+    "host": "postgres://kevttv:lVRNz79UnUL9YXZyps2L5lPBRa6awsMH@dpg-ck5kp0aij1gs73cdgtag-a.oregon-postgres.render.com",
     "dialect": "postgres",
     "dialectOptions": {
       "ssl": {
