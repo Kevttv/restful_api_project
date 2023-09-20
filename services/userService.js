@@ -30,6 +30,23 @@ const createUser = async (name,email,phone,password)=>{
         throw {status:500, message:'User could not be created'}
     }
 }
+const deleteUser = async (id) =>{
+    try{
+
+        const deletedUser =  await db.User.destroy({
+
+            where:{
+                id,
+            }
+        });
+        return deletedUser;
+
+    }catch(error){
+        return error.message || "Article could not be deleted"
+    }
+}
+
+
 
 module.exports = {
     getAllUsers,

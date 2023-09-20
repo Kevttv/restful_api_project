@@ -52,7 +52,7 @@ const updateArticle = async (id,title,content,idUser) =>{
     try{
 
         let updateArticle =  await db.Article.update({
-            tittle,
+            title,
             content,
             idUser
         },{
